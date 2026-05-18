@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
+        maven 'Maven3'
         jdk 'JDK17'
     }
 
@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/karthik-kodati-89/OrangeHRM.git'
+                git 'https://github.com/sarodesayali11/OrangeHRMApplication.git'
             }
         }
 
