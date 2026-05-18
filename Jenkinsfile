@@ -10,7 +10,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/sarodesayali11/OrangeHRMApplication.git'
+                git branch: 'main',
+                    url: 'https://github.com/sarodesayali11/OrangeHRMApplication.git'
             }
         }
 
