@@ -4,11 +4,12 @@
 
 <suite name="OrangeHRM Suite">
 
-    <test name="Login Test">
+    <test name="Employee Test">
 
         <classes>
 
-            <class name="tests.LoginTest"/>
+            <class name="tests.AddEmloyeeTest"/>
+
         </classes>
 
     </test>
